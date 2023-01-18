@@ -1,0 +1,83 @@
+---
+title: "Reunión Avance Proyecto FSEQ210022"
+subtitle: "Indicadores de sequía escala nacional"
+author: "Francisco Zambrano"
+date: "2 Agosto 2022"
+format:
+  revealjs: 
+    slide-number: true
+    transition: fade
+    background-transition: fade
+    theme: default
+    logo: img/logo_ODES.png
+    footer: "FSEQ210022"
+editor: visual
+website:
+  twitter-card:
+    creator: "@dragsonstyle"
+    site: "@rstudio"
+---
+
+## 1. Productos {.smaller}
+
+### Variables climáticas
+
+::: incremental
+-   CHELSA: Precipitación (P), temperatura (T) y evapotranspiración potencial (ET0)
+-   CHELSA: frecuencia mensual y resolución espacial de 1 km
+-   Indicadores de sequía variables climáticas
+    -   Precipitación: SPI
+    -   Precipitación y Evapotranspiración (D = P - ET0): SPEI
+-   Indicadores de sequía derivados:
+    -   SPI-1, 3, 6, 12, 24
+    -   SPEI-1, 3, 6, 12, 24
+:::
+
+------------------------------------------------------------------------
+
+## 1. Productos {.smaller}
+
+Se está desarrollando:
+
+-   CHELSA Chile: frecuencia diaria y resolución espacial de 1km
+
+## 2.- Índice de sequía: climático
+
+![](video/SPEI-24_1981-2019.mp4)
+
+## 3. Vegetación
+
+-   Productos MODIS
+    -   MOD13Q1.061: Índices de vegetación
+    -   MOD16A1.006: Evapotranspiración (Potencial y Real)
+    -   MOD44B.006: Porcentaje de no vegetación
+
+## 4. Índice de sequía: vegetación
+
+### zcNDVI: a nivel de pixel
+
+![](img/sos_eos_los.png)
+
+## 4. Índice de sequía: vegetación
+
+### zcET: a nivel de pixel
+
+![](img/sos_eos_los.png)
+
+## 4. Índice de sequía: vegetación
+
+**Anaĺisis de Correlación con datos de dendrocronologia**
+
+::: columns
+::: {.column width="40%"}
+![](img/density_dendro.png)
+:::
+
+::: {.column width="60%"}
+![](img/zcndvi_vs_PC_bars.png)
+:::
+:::
+
+## 5. Tomadores de decisión
+
+### 5.1 App testeo variables y agregación espacial

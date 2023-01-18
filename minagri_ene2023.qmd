@@ -1,0 +1,100 @@
+---
+title: "ODES: Observatorio de sequía"
+subtitle: "Reunion MINAGRI: Avances y difusión"
+date: "enero 2023"
+format:
+  revealjs: 
+    slide-number: true
+    transition: fade
+    background-transition: fade
+    theme: default
+    logo: img/logo_ODES.png
+    footer: "FSEQ210022"
+editor: visual
+---
+
+# Contexto {background-color='lightblue'}
+
+## Información del proyecto
+
+* Fondo de investigación estratégica en sequía (ANID)
+* Presupuesto: ~300 $MM
+* Periodo: `12 meses`, diciembre 2021 - diciembre 2023. (extensión hasta `junio 2023`)
+* Instituciones asociadas:
+  * Junta de Vigilancia de la segunda sección del río Aconcagua
+  * Dirección Meteorológica de Chile (DMC)
+  * Ministerio de Agricultura (MINAGRI)
+
+## Objetivo del proyecto 
+
+> 
+Desarrollar un observatorio de sequía multiescala para Chile que ayude a mitigar los impactos agrícolas y ecológicos.
+
+Lo que implica:  
+
+  - Desarrollar un observatorio de sequía a escala nacional.  
+      * Productos climáticos/sequía a resolución de 1km y frecuencia mensual/bi-mensual.  
+  - Desarrollar un observatorio de sequía en la cuenca del río Aconcagua.  
+      * Productos climáticos/sequía a resolución de 100m y frecuencia bi-mensual. 
+      * Determinar diversidad de especies y rasgos funcionales.
+      * Caracterización de riesgos y vulnerabilidad de la agricultura.
+      * Instalació de red de monitoreo de humedad y temperatura de suelo. 
+
+# Avances a la fecha {background-color='lightgreen'}
+
+## Imágen corporativa
+
+**`Logo`**
+
+![](video/ODES_Logo_animacion.mp4)
+
+
+## Imágen corporativa
+
+**`Dominio web`**
+
+[https://odes-chile.org](https://odes-chile.org)
+
+## Actividades/productos {.smaller}
+
+**Escala nacional:**
+
+  - Desarrollo de paquete en R para acceso a los datos de la red agromet.
+    - [www.github.com/odes-chile/agrometr](www.github.com/odes-chile/agrometr)
+  - Producto de precipitación y temperatura grillado CHELSA v2.1 a resolución de 1km 1981-2022 para Chile.
+    - Índices de sequía derivados SPI y SPEI 1981-2022.
+  - Cobertura de nieve
+    - Índice de sequía derivado de cobertura de nieve.
+  - Índices de sequía para vegetación
+  - Producto de humedad de suelo a 1km. Obtenido con datos CHELSA (precipitación y temperatura)
+    - Índice de sequía de humdad de suelo a 1km.
+  
+## Actividades/productos {.smaller}
+
+**Escala cuenca río Aconcagua:**
+
+- Caracterización del riesgo y vulnerabilidad socioeconómica de la cuenca del río Aconcagua.
+- Implementación de red de monitoreo de humedad de suelo/temperatura en la cuenca del río Aconcagua.
+- Parcelas para determinar diversidad de especies y rasgos funcionales.
+- Clasifiación de huertos frutales con datos del catastro frutícola.
+
+
+## Actividades/productos {.smaller}
+
+- Plataforma visulización de datos climaticos de red agromet.
+  - [https:://https://odes-chile.org/app/estaciones/](https://odes-chile.org/app/estaciones/)
+- Resumen de situación de sequía para unidades administrativas
+  - [https://odes-chile.org/app/unidades/](https://odes-chile.org/app/unidades/)
+- Prototipo de plataforma web para monitoreo de sequía con datos grillados.
+  - [https://odes-chile.org/sequia](https://odes-chile.org/sequia)
+
+
+# Últimos seis meses {background-color="orange"}
+
+# Actividades enero-junio 2023 
+
+- `marzo 2023`: version 1.0 plataforma monitor de sequía
+- `abril 2023`: version 1.0 plataforma resumen unidad
+- `mayo 2023`: preprint manuscrito plataforma monitoreo de sequía.
+- `abril 2023`: presentar propuesta continuidad ODES-Chile.
+- `abril-junio 2023`: difusión de ODES-Chile

@@ -1,0 +1,20 @@
+{
+  "hash": "427fd7c15160b3b39c44bf1d6a6769d6",
+  "result": {
+    "markdown": "---\ntitle: \"ODES: Observatorio de sequía\"\nsubtitle: \"Reunion MINAGRI: Avances y difusión\"\ndate: \"enero 2023\"\nformat:\n  revealjs: \n    slide-number: true\n    transition: fade\n    background-transition: fade\n    theme: default\n    logo: img/logo_ODES.png\n    footer: \"FSEQ210022\"\neditor: visual\n---\n\n\n## Contexto\n\n* Fondo de investigación estratégica en sequía (ANID)\n* Periodo: `12 meses`, diciembre 2021 - diciembre 2023. (extensión hasta `junio 2023`)\n* Instituciones asociadas:\n  * Junta de Vigilancia de la segunda sección del río Aconcagua\n  * Dirección Meteorológica de Chile (DMC)\n  * Ministerio de Agricultura (MINAGRI)\n\n## Contexto {.smaller}\n\n### Objetivo del proyecto \n\n> \nDesarrollar un observatorio de sequía multiescala para Chile que ayude a mitigar los impactos agrícolas y ecológicos.\n\nLo que implica:  \n\n  - Desarrollar un observatorio de sequía a escala nacional.  \n      * Productos climáticos/sequía a resolución de 1km y mensual/bi-mensual.  \n  - Desarrollar un observatorio de sequía en la cuenca del río Aconcagua.  \n      * Productos climáticos/sequía a resolución de 100m y bi-mensual.  \n\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [
+      "minagri_ene2023_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    function fireSlideChanged(previousSlide, currentSlide) {\n\n      // dispatch for htmlwidgets\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for reveal\n    if (window.Reveal) {\n      window.Reveal.addEventListener(\"slidechanged\", function(event) {\n        fireSlideChanged(event.previousSlide, event.currentSlide);\n      });\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
