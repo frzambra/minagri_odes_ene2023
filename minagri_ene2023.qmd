@@ -25,7 +25,7 @@ editor: visual
   * Dirección Meteorológica de Chile (DMC)
   * Ministerio de Agricultura (MINAGRI)
 
-## Objetivo del proyecto 
+## Objetivo del proyecto {.smaller}
 
 > 
 Desarrollar un observatorio de sequía multiescala para Chile que ayude a mitigar los impactos agrícolas y ecológicos.
@@ -67,7 +67,7 @@ Lo que implica:
     - Índice de sequía derivado de cobertura de nieve.
   - Índices de sequía para vegetación
   - Producto de humedad de suelo a 1km. Obtenido con datos CHELSA (precipitación y temperatura)
-    - Índice de sequía de humdad de suelo a 1km.
+    - Índice de sequía de humedad de suelo a 1km.
   
 ## Actividades/productos {.smaller}
 
