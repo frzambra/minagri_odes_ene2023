@@ -3,7 +3,7 @@
     "path": "/mnt/0FA1FA650427517A/OneDrive/R-projects/Proyectos/FSEQ210022/presentaciones/minagri_ene2023/minagri_ene2023.qmd",
     "project_path": "minagri_ene2023.qmd",
     "type": "quarto_markdown",
-    "hash": "837188302",
+    "hash": "1198142466",
     "contents": "",
     "dirty": false,
     "created": 1674038132054.0,
@@ -17,15 +17,15 @@
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
         "rmdVisualModeLocation": "2:0",
-        "cursorPosition": "69,30",
-        "scrollLine": "58"
+        "cursorPosition": "101,62",
+        "scrollLine": "92"
     },
     "folds": "",
-    "lastKnownWriteTime": 1674042237,
+    "lastKnownWriteTime": 1674042817,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1674042237643,
+    "last_content_update": 1674042817381,
     "read_only": false,
     "read_only_alternatives": []
 }

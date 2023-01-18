@@ -20,11 +20,17 @@ editor: visual
 * Fondo de investigación estratégica en sequía (ANID)
 * Presupuesto: ~300 $MM
 * Periodo: `12 meses`, diciembre 2021 - diciembre 2023. (extensión hasta `junio 2023`)
-* Instituciones asociadas:
+* Instituciones públicas asociadas:
   * Junta de Vigilancia de la segunda sección del río Aconcagua
   * Dirección Meteorológica de Chile (DMC)
   * Ministerio de Agricultura (MINAGRI)
 
+## Información del proyecto
+
+* Instituciones académicas
+  * `WSL`: Swiss Federal Institute for Forest, Snow and Landscape Research WSL.
+  * `UPLA`: Universidad de Playa Ancha
+  
 ## Objetivo del proyecto {.smaller}
 
 > 
@@ -38,7 +44,7 @@ Lo que implica:
       * Productos climáticos/sequía a resolución de 100m y frecuencia bi-mensual. 
       * Determinar diversidad de especies y rasgos funcionales.
       * Caracterización de riesgos y vulnerabilidad de la agricultura.
-      * Instalació de red de monitoreo de humedad y temperatura de suelo. 
+      * Instalación de red de monitoreo de humedad y temperatura de suelo. 
 
 # Avances a la fecha {background-color='lightgreen'}
 
@@ -60,7 +66,7 @@ Lo que implica:
 **Escala nacional:**
 
   - Desarrollo de paquete en R para acceso a los datos de la red agromet.
-    - [www.github.com/odes-chile/agrometr](www.github.com/odes-chile/agrometr)
+    - [www.github.com/odes-chile/agrometr](https://www.github.com/odes-chile/agrometr)
   - Producto de precipitación y temperatura grillado CHELSA v2.1 a resolución de 1km 1981-2022 para Chile.
     - Índices de sequía derivados SPI y SPEI 1981-2022.
   - Cobertura de nieve
@@ -76,12 +82,12 @@ Lo que implica:
 - Caracterización del riesgo y vulnerabilidad socioeconómica de la cuenca del río Aconcagua.
 - Implementación de red de monitoreo de humedad de suelo/temperatura en la cuenca del río Aconcagua.
 - Parcelas para determinar diversidad de especies y rasgos funcionales.
-- Clasifiación de huertos frutales con datos del catastro frutícola.
+- Clasificación de huertos frutales con datos del catastro frutícola.
 
 
 ## Actividades/productos {.smaller}
 
-- Plataforma visulización de datos climaticos de red agromet.
+- Plataforma visualización de datos climaticos de red agromet.
   - [https:://https://odes-chile.org/app/estaciones/](https://odes-chile.org/app/estaciones/)
 - Resumen de situación de sequía para unidades administrativas
   - [https://odes-chile.org/app/unidades/](https://odes-chile.org/app/unidades/)
@@ -93,6 +99,7 @@ Lo que implica:
 
 # Actividades enero-junio 2023 
 
+- `enero-junio 2023`: generar productos cercanos a tiempo real
 - `marzo 2023`: version 1.0 plataforma monitor de sequía
 - `abril 2023`: version 1.0 plataforma resumen unidad
 - `mayo 2023`: preprint manuscrito plataforma monitoreo de sequía.
